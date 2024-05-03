@@ -5,7 +5,7 @@ const cracklePop = () => {
         .map((x, i) => {
             let value = i+1
                 if ((value % 3) == 0 && (value % 5) == 0){
-                    value = 'CracklePop'
+                    value = 'Crackle Pop!'
                 } else if ((value % 5) == 0){
                     value = 'Pop'
                 } else if ((value % 3) == 0){

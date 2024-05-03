@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #3a3b3c;
-    font-family: monospace;
+    background-color: white;
+    font-family: 'Courier New', monospace;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
@@ -17,6 +17,7 @@ body {
     grid-template-rows: repeat(10, 1fr);
     grid-template-columns: repeat(10, 1fr);
     gap: .5em;
+    overflow: clip;
 }
 
 .box {
@@ -24,8 +25,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid #fe019a;
-    color: #fe019a;
+    border: 1px solid #999999;
+    color: #999999;
     transition-duration: .3s;
 
 }
